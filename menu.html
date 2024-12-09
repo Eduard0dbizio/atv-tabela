@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js"></script>
+</head>
+<body>
+    <form action="tabela.html" method="get">
+        <table>
+            <tr>
+                <th>Campo</th>
+                <th>Entrada</th>
+            </tr>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" required></td>
+            </tr>
+            <tr class="clay">
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="numero">Telefone:</label></td>
+                <td><input type="number" id="numero" name="numero" required></td>
+            </tr>
+            <tr class="clay">
+                <td><label for="curiosidade">Curiosidade:</label></td>
+                <td><input type="text" id="curiosidade" name="curiosidade" required></td>
+            </tr>
+            <tr class="blue">
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Enviar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
